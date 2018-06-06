@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author xuchaoqian
+%%% @copyright (C) 2018, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 04. Jun 2018 11:13 PM
+%%%-------------------------------------------------------------------
+{application, guid, [
+  {description, "Yet another globally unique identifier generator."},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {guid_app, []}},
+  {env, []}
+]}.
