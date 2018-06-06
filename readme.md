@@ -1,5 +1,4 @@
-# Guid: Yet another globally unique identifier generator service in Erlang
-
+# guid - Yet another globally unique identifier generator service in Erlang
 
 Guid produces 96-bit, k-ordered ids (read time-ordered lexically). Run one on each node in your infrastructure and they will generate conflict-free ids on-demand without coordination.
 
